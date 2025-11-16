@@ -14,26 +14,28 @@ This is a simple command-line banking application written in C. It allows a user
 *   A C compiler (e.g., GCC)
 
 ### Compilation
-1.  Navigate to the directory where the `banking_app.c` file is located.
+1.  Navigate to the directory where the `main.c` file is located.
 2.  Use the following command to compile the source code:
     ```sh
-    gcc banking_app.c -o banking_app
+    gcc main.c -o main
     ```
 
 ### Running the Application
 1.  After successful compilation, run the executable with the following command:
     ```sh
-    ./banking_app
+    ./main
     ```
 2.  Follow the on-screen instructions to interact with the application.
 
 ## How It Works
 The program uses a `switch` statement within a main loop to handle user input. Each case in the switch corresponds to a menu option, which calls a function to perform the specified action. For example:
-*   `check_balance()` displays the current balance.
+*   `checkBalance()` displays the current balance.
 *   `deposit()` adds a user-specified amount to the balance.
-*   `withdrawal()` subtracts a user-specified amount after verifying there are sufficient funds.
+*   `withdraw()` subtracts a user-specified amount after verifying there are sufficient funds.
 
 ## Author
-
-## License
-This project is open-source and available under the [License Name] License. See the `LICENSE` file for details.
+ESINO MUKETE 
+NFOR CLIFF BUNJI
+SHEMIDAEL BESOIDA GODWIN
+TAMBA RAWLINGS 
+WEMNJE CALEB MBANJI WEPNYU 
